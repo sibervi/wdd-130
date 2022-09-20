@@ -1,0 +1,18 @@
+img {
+       width: 150px;
+}
+div {
+    border: 20px rgb(40, 37, 37);
+    background-color: rgb(229, 225, 164);
+}
+body { 
+    text-align: center;
+    align-items: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    
+
+}
+ p { 
+    text-align: left;
+ }
