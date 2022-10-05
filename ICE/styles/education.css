@@ -1,0 +1,37 @@
+body {
+    background-color: #fca6c9;
+}
+
+h1 {
+    color: white;
+}
+
+h1:hover {
+    color:black;
+}
+
+header {
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+}
+img {
+    width: 200px;
+}
+p {
+    color: white;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 auto;
+    text-align: center;
+    width: 520px;
+}
+
+#list {
+    line-height: 1.6;
+    margin: 0 auto;
+    width: 375px;
+}
+.center {
+    text-align: center;
+}
