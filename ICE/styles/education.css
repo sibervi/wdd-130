@@ -24,7 +24,7 @@ img {
 }
 p {
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1.5;
     margin: 0 auto;
     text-align: center;
@@ -41,5 +41,5 @@ p {
 }
 footer p {
     line-height: 1;
-
+    color:black;
 }

@@ -1,0 +1,51 @@
+/* html selectors */
+body {
+    background-color: white;
+}
+footer {
+    background-color: #B4FFFF;
+}
+header {
+    background-color:#B4FFFF ;
+}
+main section {
+    text-align: center;
+}
+
+nav a {
+    text-align: center;
+}
+nav a:hover {
+    background-color:#FED811 ;
+}
+/* class selectors */
+.book, .join {
+    background-color: #06837F;
+}
+.book:hover, .join:hover {
+    background-color: #FED811;
+}
+.button-box {
+    text-align: center;
+}
+.msg {
+    background-color: white;
+}
+
+/* id selectors */
+#background {
+    height: 725px;
+    background-color: #B4FFFF;
+}
+#content {
+    margin: 0 auto;
+    max-width: 1600px;
+    /* text-align: center;
+    width: 700px;
+     */
+
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
