@@ -18,6 +18,10 @@ header {
 img {
     width: 200px;
 }
+#quote p {
+    color: white;
+    font-size: 30px;
+}
 p {
     color: white;
     font-size: 15px;
@@ -34,4 +38,8 @@ p {
 }
 .center {
     text-align: center;
+}
+footer p {
+    line-height: 1;
+
 }
