@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto+Mono:ital,wght@1,700&family=Ubuntu:wght@700&display=swap');
 
 /* html selectors */
 body {
     background-color: white;
+    font-family: 'Abel family', Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 footer {
     background-color: #B4FFFF;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: black;
@@ -18,7 +25,13 @@ footer p {
 } 
 footer p a:hover {
     text-decoration: underline;
-}    
+}
+footer .social img {
+    padding-top: 15px;
+} 
+h2 {
+    margin: 0;
+}   
 h4 {
     color: black;
 }
@@ -28,11 +41,15 @@ header {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 
 nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color:#FED811 ;
@@ -43,6 +60,10 @@ nav a:hover {
     background-color: #06837F;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #FED811;
@@ -51,20 +72,39 @@ nav a:hover {
 .button-box {
     text-align: center;
 }
+.card-img {
+    border: 10px solid #FED811;
+}
 .home-title {
     color: black;
+    font-family:'Roboto Mono', serif ;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.icon {
+    padding-top: 10px;
 }
 .icon img {
     width: 80px;
 }
 .msg {
-    background-color: white;
+    background-color: #06837F;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
-    color: #06837F;
+    color: #FED811;
+    font-family: 'Roboto Mono', serif;
+
 }
 .msg p {
-    color: black;
+    color: #FED811;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 
 /* id selectors */
@@ -88,4 +128,7 @@ nav a:hover {
 }
 #logo_link img{
     width: 80px;
+}
+#logo_link {
+    padding-top: 5px;
 }
