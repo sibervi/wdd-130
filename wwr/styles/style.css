@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto+Mono:ital,wght@1,700&family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto+Mono:wght@200&display=swap');
 
 /* html selectors */
 body {
     background-color: white;
-    font-family: 'Abel family', Helvetica, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
