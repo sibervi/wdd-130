@@ -1,0 +1,17 @@
+article {
+    background-color: yellow;
+    font-weight: 700;
+    padding: 10px;
+}
+section {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 2fr 1fr;
+    
+
+}
+
+#article1 {
+    grid-column: 1/4;
+    grid-row: 1/30;
+}
