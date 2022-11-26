@@ -1,5 +1,7 @@
 
+/* html selectors */
 
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lora:ital,wght@1,600&display=swap');
 
 a {
     text-decoration: none;
@@ -7,4 +9,150 @@ a {
 
 ul li {
     list-style: none;
+}
+
+body {
+    background-color: #9bcffd;
+    font-family: 'Lora', serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+}
+button {
+    background-color: #b388eb;
+    border: none;
+    color: white;  
+    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+    align-items: center;
+    margin: 0 auto;
+    
+    
+}
+
+h1 h2 h3 {
+    font-family: 'Fredoka One', cursive;
+}
+
+footer {
+    background-color: #efabff;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  footer a {
+    color: black;
+    text-decoration: none;
+  }
+  footer a:hover {
+    color: #b388eb;
+  }
+  footer p {
+    font-size: 1.2em;
+  }
+  footer p a:hover {
+    text-decoration: underline;
+  }
+  footer .social img {
+    padding-top: 15px;
+  }
+
+  nav {
+    display: inline-block;
+  }
+  nav ul {
+    
+    margin-top: 45px;
+    text-align: center;
+  }
+  nav a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 35px;
+  }
+  nav a:hover {
+    background-color: #b388eb;
+    color: #9bcffd;
+  }
+
+
+
+/* class selectors */
+.material-icons {
+    background-color: #eb6790;
+    color: white;
+    padding: 5px;
+    width: 80%;
+
+}
+.main-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-bottom: 200px;
+}
+
+.favorite {
+
+    background-color: #efabff;
+    color: white;
+    font-size: 30px;
+    margin-left: 18%;
+    margin-right: 30%;
+    padding: 0;
+    
+    
+}
+
+
+.favorite-img {
+    display: flex;
+    width: 50%;
+    justify-items: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+/* id selectors */
+#content {
+    background-color: white;
+    padding: 0;
+}
+#same-line {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 5%;
+    
+    
+    /* background-color: #eb6790;
+    color: white; */
+}
+
+#logo {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#logo img {
+    width: 100px;
+}
+#input {
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 10%;
+}
+#title {
+    background-color: #efabff;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 18%;
+    margin-right: 18%;
+
 }
