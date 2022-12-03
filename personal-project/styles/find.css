@@ -1,0 +1,50 @@
+/* css selectors */
+main img {
+    width: 200px;
+    margin-left: 35%;
+  
+}
+
+section h2 {
+    background-color: #efabff;
+    border: 5px solid #9bcffd;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 0;
+    color: white;
+    font-weight: 700;
+
+}
+
+
+/* css classes */
+.options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+}
+.action:hover {
+    opacity: 0.6;
+    transform: scale(1.1);
+}
+.comedy:hover {
+    opacity: 0.6;
+    transform: scale(1.1);
+}
+.drama:hover {
+    opacity: 0.6;
+    transform: scale(1.1);
+}
+.romance:hover {
+    opacity: 0.6;
+    transform: scale(1.1);
+}
+
+.others:hover {
+    opacity: 0.6;
+    transform: scale(1.1);
+}
+
+
+
