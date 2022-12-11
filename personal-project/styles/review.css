@@ -1,0 +1,66 @@
+form {
+    /* Center the form on the page */
+    margin: 25px auto;
+    width: 70%;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: #efabff;
+    margin-top: 10%;
+    color: white;
+    font-weight: 700;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+
+  img .main-img {
+    width: 70%;
+  }
+
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 150px;
+
+  }
+
+  .button2 {
+    width: 250px;
+  }
+
+  #name {
+    width: 650px;
+    margin-left: 95%;
+   
+  }
+
+  #number {
+    width: 650px;
+    margin-left: 95%;
+  }
+  #msg {
+    width: 650px;
+    height: 300px;
+    margin-left: 95%;
+  }
+
+  #title {
+    background-image: url('../images/interesting.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 76%;
+    height: 620px;
+    color: #9bcffd;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
