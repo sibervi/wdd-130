@@ -132,7 +132,6 @@ footer {
 .favorite-img {
     display: flex;
     width: 50%;
-    justify-items: space-between;
     margin-left: auto;
     margin-right: auto;
     padding-right: 12%;
